@@ -1,4 +1,4 @@
-#**PARKER MAESON | PM**
+**PARKER MAESON | PM**
 
 is a personal project of an an example for a unicorn tech professionals portfolio.
 
