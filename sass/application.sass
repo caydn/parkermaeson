@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Main sass file
+   ========================================================================== */
+// imported partials
+@import "project"
+
+// project color variables
+
+$trolley-grey: #7f7f7f
+$aztec-gold: #cc9f4a
+$outerspace: #4a4a4a
+$gainsboro: #dfdfdf
+$whitesmoke: #f6f6f6
+$white: #ffffff
+
+body
+  font-family: 'Open Sans', sans-serif
+  font-weight: 400
+  color: $outerspace
+
+.titlename
+  font-size: 60px
+  font-weight: 600
+.title
+  margin-top: 150px
+  padding-top: 60px
+  padding-bottom: 50px
+.profession
+  // font-family: $font-submain
+  font-size: 25px
+  color: $trolley-grey
+.summary
+  padding: 0 260px
+  font-size: 30px
+  text-align: center
+  font-weight: 300
+#index-nav
+  margin-top: 50px
+  li > a
+    color: $gainsboro
+    font-size: 25px
+    font-weight: 300
+    &:hover
+      color: $outerspace
+      text-decoration: none
+
+
+
+  /* ==========================================================================
+     mixins
+     ========================================================================== */
+// @font-face
+//   font-family: 'Lanenar', sans-serif
+//   src: url("fonts/Lanenar.ttf") format("truetype")
+//  $font-submain: 'Lanenar', sans-serif
