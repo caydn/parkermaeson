@@ -46,16 +46,13 @@ button:focus {
   margin-bottom: 30px; }
 
 .portfolio-item img {
-  border: 1px solid #000;
   width: 100%;
   overflow: hidden; }
 
 .img-portfolio {
   margin: 0 auto;
   height: 300px;
-  width: 300px;
-  max-width: 100%;
-  max-height: 100%; }
+  width: 300px; }
 
 .textbox:hover {
   opacity: 4; }
@@ -88,7 +85,6 @@ p span {
   height: 4px;
   border: 0;
   border-top: 2px solid #cc9f4a;
-  margin-left: 110px;
   /* ==========================================================================
    * Single project page */ }
 
@@ -111,8 +107,55 @@ a {
   font-weight: 300; }
 
 .describe {
+  margin-top: 40px;
   padding: 0 60px;
   text-align: justify; }
+
+/* ==========================================================================
+ * Notes Sass - Recent posts and single page
+ * ========================================================================== */
+.describe-note {
+  font-weight: 300;
+  margin: 20px 0;
+  text-align: left; }
+
+.read-more {
+  margin-bottom: 30px;
+  text-align: center;
+  background: #cc9f4a;
+  border: none; }
+  .read-more:hover {
+    background: #b8860b; }
+
+.share {
+  margin-top: 20px; }
+
+.goldbar {
+  width: 10rem;
+  height: 5px;
+  background-image: url(../img/goldpaper.jpg);
+  border: px solid #4a4a4a; }
+
+.share a {
+  color: #dfdfdf;
+  padding: 5px;
+  font-size: 20px; }
+  .share a:hover {
+    color: #cc9f4a; }
+
+.view-more-text {
+  margin: 45px 0 30px 0; }
+
+.view-more-text a {
+  background: #ffffff;
+  border: none;
+  color: #cc9f4a;
+  font-size: 12px; }
+  .view-more-text a:hover {
+    color: #4a4a4a;
+    text-decoration: none;
+    background: #ffffff;
+    border: none; }
 
 /* ==========================================================================
  * footer sass
@@ -128,6 +171,9 @@ a {
   font-size: 12px;
   text-align: center; }
 
+.social {
+  text-align: center; }
+
 .social a {
   color: #dfdfdf;
   text-align: center; }
@@ -137,7 +183,8 @@ a {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  color: #4a4a4a; }
+  color: #4a4a4a;
+  font-size: 14px; }
 
 .titlename {
   font-size: 60px;
@@ -153,7 +200,6 @@ body {
   color: #7f7f7f; }
 
 .summary {
-  padding: 0 260px;
   font-size: 30px;
   text-align: center;
   font-weight: 300; }
