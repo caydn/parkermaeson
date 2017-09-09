@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Main sass file
+   Project sass file
    ========================================================================== */
 $trolley-grey: #7f7f7f
 $aztec-gold: #cc9f4a
@@ -10,7 +10,10 @@ $white: #ffffff
 
 
 .navbar
-  margin-top: 45px
+  padding-top: 30px
+  padding-bottom: 30px
+  margin-bottom: 60px
+  border-bottom: 0.5px solid $gainsboro
 
 .navbar-light .navbar-toggler
   color: $trolley-grey
@@ -27,11 +30,108 @@ button:focus
 .job
   font-size: 0.95em
 
+.view-more
+  color: $aztec-gold
+  font-size: 25px
+  &:hover
+    color: $outerspace
+
+
+// imported from jacobs3.0 file
+// .test
+//   background: $golden
+//   border: 4px dashed $blue
+
+.test2
+  // background: white
+  // border: 1px dashed black
+  // margin-top: 80px
+  // margin-bottom: 100px
+// /* Portfolio */
+
+
+
+/* Portfolio */
+.portfolio
+  // background: $golden
+  // border: 4px dashed $blue
+  // padding: 30px 40px
+  margin: 10px 0
+  padding-top: 40px
+
+
+.portfolio-item
+  position: relative
+  // width: 100%
+  // height: 260px
+  margin-left: 20px
+  margin-bottom: 30px
+.portfolio-item img
+  width: 100%
+  // height: 260px
+  //make image a % of usr screen, 40%
+  height: 45vh
+  overflow: hidden
+.img-portfolio
+  margin: 0 auto
+
+.textbox:hover
+  opacity: 4
+
+.text-content
+  padding-top: 60px
+  height: 100px
+
+.textbox
+  width: 100%
+  height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  vertical-align: middle
+  opacity: 0
+  background-color: rgba(255,255,255,0.75)
+  // -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75)
+  // box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75)
+  -webkit-transition: all 0.7s ease
+  transition: all 0.7s ease
+
+
+p span
+  color: $outerspace
+  font-size: 22px
+  letter-spacing:  -1px
+  // background: #000
+  // background: rgba(0, 0, 0, 0.75)
+  padding: 10px
+.pro
+  width: 3em
+  display: block
+  height: 4px
+  border: 0
+  border-top: 2px solid $aztec-gold
+  margin-left: 110px
+  // margin: 5rem 0
 
   /* ==========================================================================
-     mixins
-     ========================================================================== */
-// @font-face
-//   font-family: 'Lanenar', sans-serif
-//   src: url("fonts/Lanenar.ttf") format("truetype")
-//  $font-submain: 'Lanenar', sans-serif
+     Single project page
+
+.back
+  font-size: 20px
+a
+  color: $trolley-grey
+  &:hover
+    color: $aztec-gold
+
+.project-title
+  margin-bottom: 25px
+.name
+  font-size: 1.8em
+  font-weight: 600
+.kind
+  font-size: 1.2em
+  font-weight: 300
+
+.describe
+  padding: 0 60px
+  text-align: justify
